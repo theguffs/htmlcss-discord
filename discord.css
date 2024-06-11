@@ -54,4 +54,17 @@ h2{
 }
 .img-ita{
     width: 10%;
+    vertical-align: middle;
+}
+.stelle{
+    width: 50%;
+    background-image: url(img/stars.svg);
+    height: 80px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.p-stelle{
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
 }
