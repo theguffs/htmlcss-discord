@@ -102,3 +102,14 @@ hr{
     background-color: rgb(112, 135, 217);
     color: white;
 }
+.bonus-su{
+    background-image:url(img/wave.svg) ;
+    opacity: 0.1;
+    height: 100px;
+}
+.bonus-giu{
+    background-image:url(img/wave.svg) ;
+    opacity: 0.1;
+    height: 100px;
+    transform: rotate(180deg);
+}
