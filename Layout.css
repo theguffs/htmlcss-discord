@@ -64,20 +64,13 @@ img{
 }
 /*sfondo grigio*/
 .grigio{
-    background-color: rgb(211, 211, 211);
-    height: 500px;
-    display: flex;
+    background-color: rgb(211, 211, 211); 
 }
-.grigio.grande{
-    height: 800px;
-}
-.container.grande{
+.grande{
     width: 1000px;
     height: 750px;
     margin: auto;
-    border:dashed 2px black;
-    display: flex;
-    background-color: rgb(34, 139, 34);
+    display: block;
 }
 /*parte nera con rettangolo rosso e azzurro*/
 .nero{

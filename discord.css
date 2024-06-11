@@ -18,7 +18,6 @@ a{
 }
 .fucsia>h2 {
     color: white;
-    font-size: 2em;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -33,8 +32,26 @@ background-color: black;
 color: white;
 }
 .rosa>h2{
-    font-size: 2em;
+    padding-top: 30px;
 }
 .rosa>p{
     padding-top: 30px;
+}
+.text-big{
+    text-align: center;
+    padding-top: 20px;
+}
+.img-big{
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+h2{
+    font-size: 2em;
+}
+.italiano{
+    padding-top: 20px;
+}
+.img-ita{
+    width: 10%;
 }
