@@ -68,3 +68,37 @@ h2{
     font-size: 30px;
     padding: 15px;
 }
+.container-download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+.download{
+    background-color: rgb(114, 137, 218);
+    color: white;
+}
+.fa-brands{
+    padding-top: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.h2-footer{
+color: rgb(112, 135, 217);
+}
+ul{
+    color: rgb(112, 135, 217);
+    padding-top:10px;
+}
+li{
+    list-style: none;
+    color: white;
+    padding-top:10px;
+}
+hr{
+    color:rgb(112, 135, 217) ;
+}
+.register{
+    background-color: rgb(112, 135, 217);
+    color: white;
+}

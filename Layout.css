@@ -80,29 +80,24 @@ img{
 }
 .rosso{
     width: calc((100% / 4) * 2);
-    background-color: rgb(240, 128, 128);
-    border:dashed 2px black;
 }
 .blu{
     width: calc(100% / 4);
-    background-color: rgb(32, 178, 170);
-    border:dashed 2px white;
 }
 /*footer*/
 footer{
     background-color: rgb(35, 39, 42);
 }
 .container-footer{
-    background-color: rgb(127, 255, 212);
     display: flex;
     width: 1000px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
     justify-content: space-between;
+    border-top:3px rgb(112, 135, 217) solid;
 }
 .basso-destra{
-    background-color: rgb(246, 175, 187);
-    border:dashed 2px black;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 5px;
