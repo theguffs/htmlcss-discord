@@ -1,0 +1,40 @@
+/*header*/
+header{
+   background-color: rgb(37, 94, 233);
+    
+}
+.background-blu{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.accedi{
+    color:  rgb(37, 94, 233);
+}
+.fucsia>h2 {
+    color: white;
+    font-size: 2em;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.fucsia>p{
+    color: white;
+}
+.fucsia {
+   margin: auto;
+}
+.open-discord{
+background-color: black;
+color: white;
+}
+.rosa>h2{
+    font-size: 2em;
+}
+.rosa>p{
+    padding-top: 30px;
+}

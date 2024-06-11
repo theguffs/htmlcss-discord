@@ -4,29 +4,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*header*/
-header{
-    background-color: rgb(173, 216, 230);
-    padding: 15px;
+img{
+    max-width: 100%;
 }
+/*INIZIO layout*/
+/*header*/
+
 
 .container-header{
-    background-color: rgb(218, 165, 32);
     display: flex;
     width: 1000px;
     margin: auto;
 }
 .text{
-    border:dashed 2px black;
     padding: 5px;
-
 }
 .centro{
     width: 60%;
+    display: flex;
+    justify-content: space-between;
     text-align: center;
 }
 .sinistra{
     width: 20%;
+    padding-top: 15px;
 }
 .destra{
     width: 20%;
@@ -34,19 +35,15 @@ header{
 }
 /*main parte blu con all'interno rettangolo fucsia*/
 .background-blu{
-    background-color: rgb(0, 0, 139);
     height: 400px;
-    display: flex;
 }
 .fucsia{
-    background-color: rgb(238, 130, 238);
     width: 700px;
     height: 350px;
-    margin: auto;
-    justify-content: center;
-    border:dashed 2px black;
+    text-align: center;
 }
 /*parte bianca e grigia con all'interno rettangolo azzurro e rosa*/
+/*sfondo bianco*/
 .bianco{
     height: 500px;
     display: flex;
@@ -55,23 +52,17 @@ header{
     width: 1000px;
     height: 400px;
     margin: auto;
-    border:dashed 2px black;
     display: flex;
 }
+/*immagine*/
 .azzurro{
     width: 60%;
-    background-color: rgb(30, 144, 255);
-    border-right: dashed 2px black;
 }
-.azzurro-right{
-    width: 60%;
-    background-color: rgb(30, 144, 255);
-    border-left: dashed 2px black;
-}
+/*scritte*/
 .rosa{
     width: 40%;
-    background-color: rgb(255, 192, 203);
 }
+/*sfondo grigio*/
 .grigio{
     background-color: rgb(211, 211, 211);
     height: 500px;
@@ -116,7 +107,7 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+.basso-destra{
     background-color: rgb(246, 175, 187);
     border:dashed 2px black;
     margin-top: 10px;
@@ -124,9 +115,13 @@ footer{
     padding: 5px;
 }
 button{
-    background-color: rgb(246, 175, 187);
-    border:dashed 2px black;
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    border: 0;
 }
+/*fine layout*/
