@@ -1,15 +1,17 @@
 /*general*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 img{
-    max-width: 100%;
+    max-width: 100%;  /*mettere alle immagine sempre*/
 }
-/*INIZIO layout*/
-/*header*/
 
+/*INIZIO layout*/
+
+/*header*/
 
 .container-header{
     display: flex;
@@ -33,7 +35,9 @@ img{
     width: 20%;
     text-align: right;
 }
+
 /*main parte blu con all'interno rettangolo fucsia*/
+
 .background-blu{
     height: 400px;
 }
@@ -42,8 +46,11 @@ img{
     height: 350px;
     text-align: center;
 }
+
 /*parte bianca e grigia con all'interno rettangolo azzurro e rosa*/
+
 /*sfondo bianco*/
+
 .bianco{
     height: 500px;
     display: flex;
@@ -54,15 +61,21 @@ img{
     margin: auto;
     display: flex;
 }
+
 /*immagine*/
+
 .azzurro{
     width: 60%;
 }
-/*scritte*/
+
+/*scritta a fianco immagine*/
+
 .rosa{
     width: 40%;
 }
+
 /*sfondo grigio*/
+
 .grigio{
     background-color: rgb(228, 228, 228); 
 }
@@ -72,7 +85,9 @@ img{
     margin: auto;
     display: block;
 }
+
 /*parte nera con rettangolo rosso e azzurro*/
+
 .nero{
     background-color: rgb(35, 39, 42);
     height: 500px;
@@ -84,7 +99,9 @@ img{
 .blu{
     width: calc(100% / 4);
 }
+
 /*footer*/
+
 footer{
     background-color: rgb(35, 39, 42);
 }
@@ -112,4 +129,5 @@ button{
     border-radius: 50px;
     border: 0;
 }
+
 /*fine layout*/

@@ -1,4 +1,5 @@
-/*header*/
+        /*header*/
+
 header{
    background-color: rgb(37, 94, 233);
     
@@ -15,6 +16,9 @@ a{
 }
 .accedi{
     color:  rgb(37, 94, 233);
+
+         /*main*/
+
 }
 .fucsia>h2 {
     color: white;
@@ -49,9 +53,9 @@ color: white;
 h2{
     font-size: 2em;
 }
-.italiano{
-    padding-top: 20px;
-}
+
+/*footer*/
+
 .img-ita{
     width: 10%;
     vertical-align: middle;
@@ -74,6 +78,9 @@ h2{
     align-items: center;
     padding-bottom: 70px;
 }
+ 
+/*footer*/
+
 .download{
     background-color: rgb(114, 137, 218);
     color: white;
@@ -85,6 +92,12 @@ h2{
 }
 .h2-footer{
 color: rgb(112, 135, 217);
+}
+.lingua{
+    margin-top: 20px;
+}
+span{
+    color: white;
 }
 ul{
     color: rgb(112, 135, 217);
@@ -102,6 +115,7 @@ hr{
     background-color: rgb(112, 135, 217);
     color: white;
 }
+/*esercizio bonus dell'onda*/
 .bonus-su{
     background-image:url(img/wave.svg) ;
     opacity: 0.1;
@@ -111,5 +125,5 @@ hr{
     background-image:url(img/wave.svg) ;
     opacity: 0.1;
     height: 100px;
-    transform: rotate(180deg);
+    transform: rotate(180deg);/*ruotare l'img a 180 gradi*/
 }
